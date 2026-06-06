@@ -4,7 +4,7 @@ from . import models
 from .database import engine
 from sqlalchemy.orm import Session
 from passlib.context import  CryptContext
-from FastAPI_env.blog.database import get_db
+from .database import get_db
 from .routers import blog,user,authentication
 
 
