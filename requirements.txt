@@ -1,5 +1,5 @@
 fastapi
-uvicon
+uvicorn
 sqlalchemy
 passlib
 bcrypt
