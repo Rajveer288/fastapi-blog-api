@@ -2,9 +2,6 @@ from fastapi import FastAPI
 
 from . import models
 from .database import engine
-from sqlalchemy.orm import Session
-from passlib.context import  CryptContext
-from .database import get_db
 from .routers import blog,user,authentication
 
 
