@@ -1,6 +1,6 @@
-from flask import Response
+from fastapi import Response
 
-from FastAPI_env.blog import models
+from .. import models
 from sqlalchemy.orm import Session
 from fastapi import Depends,requests,HTTPException,status
 from ..main import get_db
